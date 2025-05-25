@@ -30,7 +30,7 @@ def carica_interfaccia():
         st.success("✅ Fogli caricati correttamente!")
 
         # Slider per la soglia
-        soglia = st.slider("🎯 Soglia di similarità (%)", min_value=60, max_value=100, value=90, step=1)
+        soglia = st.slider("🎯 Soglia di similarità (%)", min_value=40, max_value=100, value=90, step=1)
 
         if st.button("🚀 Avvia confronto"):
             with st.spinner("Confronto in corso..."):
